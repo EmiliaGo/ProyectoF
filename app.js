@@ -34,7 +34,7 @@ db.connect(err=>{
 //const hostname= '192.168.3.115'
 const port = 3008;
 app.listen(port,()=>{
-    console.log(`El servidor esta en http://localhost:${port}`); 
+    console.log(`El servidor esta en http://192.168.82.89:${port}`); 
     //console.log(`El servidor esta en https://${hostname}:${port}`); 
 });
 
